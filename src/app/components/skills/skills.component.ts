@@ -76,7 +76,7 @@ interface SkillCategory {
       display: flex;
       align-items: center;
       gap: 16px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid var(--glass-border);
       padding-bottom: 16px;
     }
 
@@ -84,7 +84,7 @@ interface SkillCategory {
       width: 44px;
       height: 44px;
       border-radius: 10px;
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       color: var(--primary);
       display: flex;
       align-items: center;
@@ -139,7 +139,7 @@ interface SkillCategory {
     .progress-bar-container {
       width: 100%;
       height: 6px;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(15, 23, 42, 0.06);
       border-radius: 9999px;
       overflow: hidden;
     }

@@ -72,12 +72,12 @@ import { CommonModule } from '@angular/common';
     }
 
     .navbar.scrolled {
-      background: rgba(8, 11, 17, 0.8);
+      background: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       height: 70px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
     }
 
     .nav-container {
@@ -135,13 +135,13 @@ import { CommonModule } from '@angular/common';
 
     .nav-link:hover {
       color: var(--text-main);
-      background: rgba(255, 255, 255, 0.03);
+      background: rgba(15, 23, 42, 0.04);
     }
 
     .nav-link.active {
       color: var(--text-main);
-      background: rgba(99, 102, 241, 0.1);
-      border: 1px solid rgba(99, 102, 241, 0.2);
+      background: rgba(79, 70, 229, 0.08);
+      border: 1px solid rgba(79, 70, 229, 0.15);
     }
 
     .nav-link.active i {
@@ -192,7 +192,7 @@ import { CommonModule } from '@angular/common';
       height: 100vh;
       background: var(--bg-secondary);
       border-left: 1px solid var(--glass-border);
-      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+      box-shadow: -10px 0 30px rgba(15, 23, 42, 0.05);
       z-index: 999;
       display: flex;
       align-items: center;
@@ -226,7 +226,7 @@ import { CommonModule } from '@angular/common';
 
     .mobile-nav-link:hover, .mobile-nav-link.active {
       color: var(--text-main);
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       border-left: 4px solid var(--primary);
     }
 

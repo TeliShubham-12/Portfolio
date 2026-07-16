@@ -125,7 +125,7 @@ interface Project {
       width: 46px;
       height: 46px;
       border-radius: 12px;
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       color: var(--primary);
       display: flex;
       align-items: center;
@@ -137,7 +137,7 @@ interface Project {
       font-size: 0.75rem;
       font-weight: 700;
       color: var(--accent);
-      background: rgba(6, 182, 212, 0.1);
+      background: rgba(8, 145, 178, 0.08);
       padding: 4px 10px;
       border-radius: 6px;
       text-transform: uppercase;
@@ -170,16 +170,16 @@ interface Project {
       font-size: 0.75rem;
       font-weight: 600;
       color: var(--text-muted);
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: var(--bg-tertiary);
+      border: 1px solid var(--glass-border);
       padding: 4px 10px;
       border-radius: 6px;
     }
 
     .tech-pill.excess {
       color: var(--secondary);
-      border-color: rgba(139, 92, 246, 0.2);
-      background: rgba(139, 92, 246, 0.05);
+      border-color: rgba(124, 58, 237, 0.2);
+      background: rgba(124, 58, 237, 0.05);
     }
 
     .view-btn {
@@ -216,7 +216,7 @@ interface Project {
       left: 0;
       width: 100vw;
       height: 100vh;
-      background: rgba(8, 11, 17, 0.85);
+      background: rgba(15, 23, 42, 0.6);
       backdrop-filter: blur(10px);
       z-index: 1100;
       display: flex;
@@ -230,11 +230,11 @@ interface Project {
       max-width: 650px;
       max-height: 85vh;
       overflow-y: auto;
-      background: var(--bg-secondary);
-      border-color: rgba(255, 255, 255, 0.08);
+      background: var(--bg-primary);
+      border-color: var(--glass-border);
       position: relative;
       padding: 40px;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.15);
     }
 
     .close-btn {
@@ -255,14 +255,14 @@ interface Project {
 
     .close-btn:hover {
       color: var(--text-main);
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(15, 23, 42, 0.05);
     }
 
     .modal-icon-container {
       width: 60px;
       height: 60px;
       border-radius: 16px;
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       color: var(--primary);
       display: flex;
       align-items: center;
@@ -297,7 +297,7 @@ interface Project {
 
     .modal-divider {
       height: 1px;
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--glass-border);
       width: 100%;
       margin: 24px 0;
     }

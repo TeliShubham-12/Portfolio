@@ -124,28 +124,28 @@ interface ExperienceItem {
 
     .timeline-item.right:hover .timeline-card {
       box-shadow: var(--glow-shadow-cyan);
-      border-color: rgba(6, 182, 212, 0.25);
+      border-color: rgba(8, 145, 178, 0.25);
     }
-
+ 
     .work-duration {
       display: inline-block;
       font-size: 0.8rem;
       font-weight: 700;
       color: var(--accent);
-      background: rgba(6, 182, 212, 0.1);
+      background: rgba(8, 145, 178, 0.08);
       padding: 4px 12px;
       border-radius: 9999px;
       margin-bottom: 12px;
       letter-spacing: 0.05em;
     }
-
+ 
     .work-role {
       font-size: 1.35rem;
       font-weight: 800;
       color: var(--text-main);
       margin-bottom: 6px;
     }
-
+ 
     .work-company {
       font-size: 1rem;
       font-weight: 600;
@@ -155,14 +155,14 @@ interface ExperienceItem {
       align-items: center;
       gap: 8px;
     }
-
+ 
     .work-location {
       font-size: 0.9rem;
       font-weight: 400;
       color: var(--text-dark);
       margin-left: 8px;
     }
-
+ 
     .work-highlights {
       list-style: none;
       display: flex;
@@ -170,7 +170,7 @@ interface ExperienceItem {
       gap: 12px;
       margin-bottom: 24px;
     }
-
+ 
     .work-highlights li {
       position: relative;
       padding-left: 20px;
@@ -178,7 +178,7 @@ interface ExperienceItem {
       font-size: 0.95rem;
       line-height: 1.5;
     }
-
+ 
     .work-highlights li::before {
       content: '✦';
       position: absolute;
@@ -186,23 +186,23 @@ interface ExperienceItem {
       color: var(--primary);
       font-size: 0.8rem;
     }
-
+ 
     .timeline-item.right .work-highlights li::before {
       color: var(--secondary);
     }
-
+ 
     .work-tags {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
     }
-
+ 
     .tag {
       font-size: 0.75rem;
       font-weight: 600;
-      color: var(--text-main);
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--text-muted);
+      background: var(--bg-tertiary);
+      border: 1px solid var(--glass-border);
       padding: 4px 10px;
       border-radius: 6px;
     }

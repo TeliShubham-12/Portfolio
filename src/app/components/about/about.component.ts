@@ -111,8 +111,8 @@ import { CommonModule } from '@angular/common';
       padding: 24px;
       margin-top: 20px;
       align-items: center;
-      background: rgba(255, 255, 255, 0.02);
-      border-color: rgba(255, 255, 255, 0.04);
+      background: var(--bg-secondary);
+      border-color: var(--glass-border);
     }
 
     .education-card:hover {
@@ -123,7 +123,7 @@ import { CommonModule } from '@angular/common';
       width: 50px;
       height: 50px;
       border-radius: 12px;
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -147,7 +147,7 @@ import { CommonModule } from '@angular/common';
       display: inline-block;
       font-size: 0.8rem;
       font-weight: 600;
-      background: rgba(6, 182, 212, 0.1);
+      background: rgba(8, 145, 178, 0.08);
       color: var(--accent);
       padding: 2px 8px;
       border-radius: 4px;
@@ -180,10 +180,10 @@ import { CommonModule } from '@angular/common';
       margin-bottom: 16px;
     }
 
-    .stat-icon.indigo { background: rgba(99, 102, 241, 0.1); color: var(--primary); }
-    .stat-icon.purple { background: rgba(139, 92, 246, 0.1); color: var(--secondary); }
-    .stat-icon.cyan { background: rgba(6, 182, 212, 0.1); color: var(--accent); }
-    .stat-icon.rose { background: rgba(244, 63, 94, 0.1); color: #f43f5e; }
+    .stat-icon.indigo { background: rgba(79, 70, 229, 0.08); color: var(--primary); }
+    .stat-icon.purple { background: rgba(124, 58, 237, 0.08); color: var(--secondary); }
+    .stat-icon.cyan { background: rgba(8, 145, 178, 0.08); color: var(--accent); }
+    .stat-icon.rose { background: rgba(244, 63, 94, 0.08); color: #e11d48; }
 
     .stat-value {
       font-size: 2.25rem;
@@ -203,7 +203,7 @@ import { CommonModule } from '@angular/common';
     /* Strengths section */
     .strengths-container {
       margin-top: 60px;
-      background: rgba(15, 20, 32, 0.4);
+      background: var(--bg-secondary);
       border: 1px solid var(--glass-border);
       border-radius: 16px;
       padding: 30px;
@@ -227,8 +227,8 @@ import { CommonModule } from '@angular/common';
     }
 
     .strength-tag {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      background: var(--bg-primary);
+      border: 1px solid var(--glass-border);
       border-radius: 9999px;
       padding: 8px 18px;
       font-size: 0.95rem;
@@ -245,9 +245,9 @@ import { CommonModule } from '@angular/common';
     }
 
     .strength-tag:hover {
-      border-color: rgba(99, 102, 241, 0.3);
+      border-color: rgba(79, 70, 229, 0.25);
       color: var(--text-main);
-      background: rgba(99, 102, 241, 0.05);
+      background: rgba(79, 70, 229, 0.04);
       transform: translateY(-2px);
     }
 

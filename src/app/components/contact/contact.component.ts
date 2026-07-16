@@ -203,7 +203,7 @@ import { FormsModule } from '@angular/forms';
       width: 48px;
       height: 48px;
       border-radius: 12px;
-      background: rgba(99, 102, 241, 0.1);
+      background: rgba(79, 70, 229, 0.08);
       color: var(--primary);
       display: flex;
       align-items: center;
@@ -250,12 +250,12 @@ import { FormsModule } from '@angular/forms';
 
     .info-card:hover .copy-btn {
       color: var(--text-muted);
-      background: rgba(255, 255, 255, 0.03);
+      background: rgba(15, 23, 42, 0.03);
     }
 
     .copy-btn:hover {
       color: var(--text-main) !important;
-      background: rgba(255, 255, 255, 0.08) !important;
+      background: rgba(15, 23, 42, 0.06) !important;
     }
 
     .tooltip {
@@ -273,7 +273,7 @@ import { FormsModule } from '@angular/forms';
       pointer-events: none;
       opacity: 0;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 10px rgba(15, 23, 42, 0.06);
     }
 
     .tooltip.show {
@@ -305,7 +305,7 @@ import { FormsModule } from '@angular/forms';
     }
 
     .form-group input, .form-group textarea {
-      background: rgba(255, 255, 255, 0.02);
+      background: var(--bg-secondary);
       border: 1px solid var(--glass-border);
       border-radius: 8px;
       color: var(--text-main);
@@ -317,13 +317,13 @@ import { FormsModule } from '@angular/forms';
     .form-group input:focus, .form-group textarea:focus {
       outline: none;
       border-color: var(--primary);
-      box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
-      background: rgba(255, 255, 255, 0.04);
+      box-shadow: 0 0 10px rgba(79, 70, 229, 0.15);
+      background: var(--bg-primary);
     }
 
     .form-group input.invalid, .form-group textarea.invalid {
       border-color: #ef4444;
-      box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+      box-shadow: 0 0 10px rgba(239, 68, 68, 0.1);
     }
 
     .error-msg {
